@@ -14,5 +14,6 @@ summarize hrs1, detail
 * Histogram of hrs1
 histogram hrs1,normal
 
-* The study also analyzed to find out between men and women who works longer
+* Analysis by Sex
+*The study further examines differences in working hours between males and females using the command:
 by sex: summarize hrs1, detail
