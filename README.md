@@ -1,2 +1,8 @@
 # Analysis-of-GSS-data-using-Stata
+
 This project analyzes the General Social Survey (GSS) dataset using Stata, focusing on the distribution of weekly working hours (hrs1 variable). The GSS is a long-running repeated cross-sectional survey of U.S. households conducted since 1972. Analysis applies descriptive statistics and visualization techniques to examine patterns in labor supply. 
+
+## Analysis of Hours Worked (hrs1) – GSS Datase
+
+This analysis examines the variable hrs1 (hours worked last week) from the General Social Survey (GSS) dataset with 1,729 observations.The average number of hours worked per week is 41.78 hours, while the median is 40 hours, indicating that most individuals work around a standard full-time schedule. The slight difference between the mean and median suggests a mild right skew in the distribution, caused by a small number of respondents working very long hours.The distribution shows moderate variability, with a standard deviation of 14.62 hours. Most observations are concentrated between 36 and 50 hours, reflecting typical full-time employment patterns, while a few extreme values extend up to 89 hours per week.
+The skewness value of 0.28 indicates that the distribution is approximately symmetric, with only a slight right tail due to high-hour outliers. The kurtosis value of 4.31 is higher than 3, suggesting a leptokurtic distribution with heavier tails than a normal distribution. This reflects the presence of more extreme values (very low and very high working hours) than would be expected under normality.Overall, the distribution of hours worked is approximately normal but slightly right-skewed with heavier tails, consistent with real-world labour market variation.
