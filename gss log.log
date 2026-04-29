@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\gss log.log
+  log type:  text
+ opened on:  29 Apr 2026, 13:14:03
+
+. do "C:\Users\Nyatichi\AppData\Local\Temp\STD3274_000000.tmp"
+
+. use descriptive_gss.dta, clear
+
+. 
+end of do-file
+
+. do "C:\Users\Nyatichi\AppData\Local\Temp\STD3274_000000.tmp"
+
+. summarize hrs1, detail
+
+              number of hours worked last week
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            6              1
+ 5%           16              2
+10%           21              2       Obs               1,729
+25%           36              2       Sum of Wgt.       1,729
+
+50%           40                      Mean           41.77675
+                        Largest       Std. Dev.      14.62304
+75%           50             89
+90%           60             89       Variance       213.8332
+95%           68             89       Skewness       .2834814
+99%           88             89       Kurtosis       4.310339
+
+. 
+end of do-file
+
+. do "C:\Users\Nyatichi\AppData\Local\Temp\STD3274_000000.tmp"
+
+. histogram hrs1,normal
+(bin=32, start=1, width=2.75)
+
+. 
+end of do-file
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\gss log.log
+  log type:  text
+ closed on:  29 Apr 2026, 13:16:21
+---------------------------------------------------------------------------------------------------------
