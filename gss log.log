@@ -41,6 +41,51 @@ end of do-file
 . 
 end of do-file
 
+. by sex: summarize hrs1, detail
+
+---------------------------------------------------------------------------------------------------------
+-> sex = 1. male
+
+              number of hours worked last week
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            8              1
+ 5%           20              2
+10%           30              3       Obs                 843
+25%           40              3       Sum of Wgt.         843
+
+50%           42                      Mean           45.08897
+                        Largest       Std. Dev.      14.96926
+75%           50             89
+90%           65             89       Variance       224.0788
+95%           72             89       Skewness       .3003538
+99%           89             89       Kurtosis       4.094242
+
+---------------------------------------------------------------------------------------------------------
+-> sex = 2. female
+
+              number of hours worked last week
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            4              2
+ 5%           15              2
+10%           20              3       Obs                 886
+25%           32              3       Sum of Wgt.         886
+
+50%           40                      Mean           38.62528
+                        Largest       Std. Dev.      13.56223
+75%           45             89
+90%           55             89       Variance        183.934
+95%           60             89       Skewness       .1562712
+99%           84             89       Kurtosis       4.623873
+
+
+. 
+end of do-file
+
+. 
+
+
 . log close
       name:  <unnamed>
        log:  C:\Users\Nyatichi\Desktop\Github\gss log.log
