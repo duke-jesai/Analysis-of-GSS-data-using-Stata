@@ -13,3 +13,6 @@ summarize hrs1, detail
 
 * Histogram of hrs1
 histogram hrs1,normal
+
+* The study also analyzed to find out between men and women who works longer
+by sex: summarize hrs1, detail
